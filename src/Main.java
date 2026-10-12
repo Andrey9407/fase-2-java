@@ -14,7 +14,7 @@ public class Main {
         } catch (InputMismatchException e) {
             System.out.println("Error: Por favor ingrese un numero valido");
         } catch (ArithmeticException e) {
-            System.out.println("Error: No se puede dividir por cero");
+            System.out.println("Error: No se puede dividir por cero, intente nuevamente");
         } finally {
             sc.close();
         }
