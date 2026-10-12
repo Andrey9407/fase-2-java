@@ -10,7 +10,7 @@ public class Main {
             int a = sc.nextInt();
             System.out.println("Ingrese el segundo numero:");
             int b = sc.nextInt();
-            System.out.println("El resultado de la división es: " + a / b);
+            System.out.println("El resultado de la división es: " + (double) a / b);
         } catch (InputMismatchException e) {
             System.out.println("Error: Por favor ingrese un numero valido");
         } catch (ArithmeticException e) {
